@@ -1,8 +1,8 @@
 setTimeout(clearData(), 500)
-const URL = 'http://localhost:5000/reset'
 
 function clearData(){
-    $.post( URL, function( data ) {
+    $.get( 'http://localhost:5000/reset', function( data ) {
         $( "body" ).html( data );
+        window.location = 'index.html'
     });
 }
