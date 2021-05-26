@@ -1,4 +1,4 @@
-const URL = 'http://localhost:5000'
+const URL = 'https://quest.bozhko.net'
 
 $('.hint').hide()
 $('#hint-tab-li').hide()
